@@ -7,12 +7,18 @@ Copy & paste the contents of this repo to your project.
 Rename line 2 of `CMakeLists.txt`.  
 For each library you wish to add download the "Development libraries" to a common folder of libraries, i.e. `C:/dev/dist`.  
 
+Use the following project structure:  
+```
+|-headers
+|-resources
+|-src
+| \-main.cpp
+\-CMakeLists.txt
+```
+
 ## Supported Libraries
 
-SDL2
-SDL2_image
-SDL2_mixer
-SDL2_ttf
+`SDL2` `SDL2_image` `SDL2_mixer` `SDL2_ttf`
 
 ## IDE Specifics
 
