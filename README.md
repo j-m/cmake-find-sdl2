@@ -16,7 +16,7 @@ Use the following project structure:
 \-CMakeLists.txt
 ```
 
-You'll want to `.gitignore` the `build` and `out` proejct root directories. 
+You'll want to `.gitignore` the `build` and `out` project root directories. 
 
 ## Supported Libraries
 
