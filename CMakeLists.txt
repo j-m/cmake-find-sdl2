@@ -15,7 +15,10 @@ FIND_PACKAGE(SDL2_image REQUIRED)
 FIND_PACKAGE(SDL2_mixer REQUIRED)
 FIND_PACKAGE(SDL2_ttf REQUIRED)
 
-MESSAGE(STATUS "Finding source and header files")
+MESSAGE(STATUS "Finding header files")
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/headers)
+
+MESSAGE(STATUS "Finding source files")
 FILE(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "src/*")
 
 MESSAGE(STATUS "Adding a step to create an executable")
