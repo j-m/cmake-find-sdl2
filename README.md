@@ -16,6 +16,8 @@ Use the following project structure:
 \-CMakeLists.txt
 ```
 
+You'll want to `.gitignore` the `build` and `out` proejct root directories. 
+
 ## Supported Libraries
 
 `SDL2` `SDL2_image` `SDL2_mixer` `SDL2_ttf`
